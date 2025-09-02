@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My Profile</string>
+    <string name="nama">Hanan Fijananto</string>
+    <string name="prodi">Teknologi Rekayasa Perangkat Lunak</string>
+    <string name="asal">Sleman, Yogyakarta</string>
+    <string name="hobi">gaming</string>
+    <string name="nim">24/538946/SV/24555</string>
+    <string name="univ">Gadjah Mada University</string>
+</resources>
