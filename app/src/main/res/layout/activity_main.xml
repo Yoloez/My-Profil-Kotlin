@@ -50,7 +50,7 @@
                 android:layout_height="110dp"
                 android:layout_marginTop="25dp"
                 app:cardBackgroundColor="#03A9F4"
-                app:cardCornerRadius="55dp"
+                app:cardCornerRadius="50dp"
                 app:cardElevation="4dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -80,6 +80,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
                 android:text="@string/nama"
+                android:fontFamily="@font/poppins"
                 android:textColor="@android:color/black"
                 android:textSize="22sp"
                 android:textStyle="bold"
@@ -103,7 +104,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="24dp"
-                android:layout_marginTop="24dp"
+                android:layout_marginTop="18dp"
                 android:layout_marginEnd="24dp"
                 android:gravity="center_vertical"
                 android:orientation="horizontal"
@@ -128,11 +129,6 @@
                     android:textColor="@android:color/black"
                     android:textSize="18sp"
                     android:textStyle="bold" />
-
-                <ImageView
-                    android:layout_width="24dp"
-                    android:layout_height="24dp"
-                    app:tint="#BDBDBD" />
             </LinearLayout>
 
             <LinearLayout
@@ -168,20 +164,16 @@
                     android:onClick="openYouTube"
                     android:focusable="true" />
 
-                <LinearLayout
-                    android:id="@id/item_hobi"
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:orientation="horizontal">
-
-                    <ImageView
-                        android:layout_width="25dp"
-                        android:layout_height="25dp"
-                        android:src="@drawable/joystick"
-
-                        />
-
-                </LinearLayout>
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginEnd="8dp"
+                    android:background="@drawable/bg_icon"
+                    android:padding="12dp"
+                    android:src="@drawable/github"
+                    android:clickable="true"
+                    android:onClick="openGmail"
+                    android:focusable="true" />
 
                 <ImageView
                     android:layout_width="50dp"
@@ -255,7 +247,7 @@
                 </ImageView>
 
                 <TextView
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/univ"
                     android:textSize="18sp"
@@ -304,9 +296,11 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="1dp"
                 android:padding="16dp"
-                android:text="\&quot;bteurity Favodl iep byrelting Favoripatity\&quot; çekigest loestodes nteet wi"
-                android:textColor="#C2185B"
+                android:text="@string/quote"
+                android:textColor="@color/black"
+                android:textAlignment="center"
                 android:textSize="16sp"
+                android:fontFamily="@font/poppins"
                 app:layout_constraintEnd_toEndOf="@id/menu_item_1"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="@id/menu_item_1"
